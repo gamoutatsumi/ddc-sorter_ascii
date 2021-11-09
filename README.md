@@ -12,7 +12,7 @@ ASCII code order sorter for ddc.vim
 ```vim
 call ddc#custom#patch_global('sourceOptions', {
   \ '_': {
-  \   'sorters': ['sorter_rank'],
+  \   'sorters': ['sorter_ascii'],
   \ }
   \ })
 ```
