@@ -1,4 +1,5 @@
 {
+  "lock": false,
   "tasks": {
     "lint": "deno lint && deno check ./**/*.ts",
     "molt": "deno run --allow-env --allow-read --allow-write --allow-run=git,deno --allow-net jsr:@molt/cli ./**/*.ts --write"
