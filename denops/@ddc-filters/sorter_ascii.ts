@@ -1,5 +1,5 @@
-import { BaseFilter, Item } from "https://deno.land/x/ddc_vim@v5.0.0/types.ts";
-import { Denops } from "https://deno.land/x/ddc_vim@v5.0.0/deps.ts";
+import { BaseFilter, Item } from "jsr:@shougo/ddc-vim@6.0.0/types";
+import { Denops } from "jsr:@denops/core@7.0.1";
 
 function calcStore(a: Item, b: Item): number {
   const wordA = a.word.toLowerCase();
