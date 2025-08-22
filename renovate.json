@@ -14,5 +14,8 @@
   "automergeStrategy": "merge-commit",
   "prConcurrentLimit": 10,
   "prHourlyLimit": 5,
-  "timezone": "Asia/Tokyo"
+  "timezone": "Asia/Tokyo",
+  "github-actions": {
+    "enabled": true
+  }
 }
