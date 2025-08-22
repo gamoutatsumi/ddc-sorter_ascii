@@ -1,5 +1,5 @@
 import type { Item } from "jsr:@shougo/ddc-vim@9.5.0/types";
-import type { Denops } from "jsr:@denops/std@7.5.0";
+import type { Denops } from "jsr:@denops/std@7.6.0";
 import { BaseFilter } from "jsr:@shougo/ddc-vim@9.5.0/filter";
 
 function calcStore(a: Item, b: Item): number {
