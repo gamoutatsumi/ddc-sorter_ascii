@@ -1,6 +1,6 @@
-import type { Item } from "jsr:@shougo/ddc-vim@10.1.0/types";
-import type { Denops } from "jsr:@denops/std@8.0.0";
-import { BaseFilter } from "jsr:@shougo/ddc-vim@10.1.0/filter";
+import type { Item } from "@shougo/ddc-vim/types";
+import type { Denops } from "@denops/std";
+import { BaseFilter } from "@shougo/ddc-vim/filter";
 
 function calcStore(a: Item, b: Item): number {
   const wordA = a.word.toLowerCase();
